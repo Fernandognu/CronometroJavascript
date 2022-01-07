@@ -18,7 +18,7 @@ Este site foi desenvolvido a nível didático, foi a primeira vez que fiz um sit
 
 ## Getting Started
 1. Faça o download ou clone este repositório;
-1. Execute o arquivo home.html;
+1. Execute o arquivo index.html;
 
 ## Do You Wanna Help?
 * Abra uma Issue;
