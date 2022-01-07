@@ -1,11 +1,7 @@
 # Cronômetro com JavaScript Puro
 
 <p align="center">
-  <img width="470" src="img/print.png">
-</p>
-
-<p align="center">
-  <img width="460" height="300" src="img/gif.gif">
+  <img width="460" height="300" src="assets/img/gif.gif">
 </p>
 
 ## Description
