@@ -1,16 +1,3 @@
-/* Mixin's */
-@mixin transition {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-@mixin corners($radius) {
-  -moz-border-radius: $radius;
-  -webkit-border-radius: $radius;
-  border-radius: $radius;
-  -khtml-border-radius: $radius;
-}
-
 body {
   background: #ffa600;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
@@ -40,21 +27,14 @@ h3 {
 }
 
 button {
-  @include corners(5px);
-  background: #ffa600;
-  color: #fff;
-  border: solid 1px #fff;
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 1.2em;
-  padding: 18px 10px;
-  width: 180px;
-  margin: 10px;
-  outline: none;
-  &:hover {
-    @include transition;
-    background: #fff;
-    border: solid 1px #fff;
-    color: #ffa600;
-  }
+background: #ffa600;
+color: #fff;
+border: solid 1px #fff;
+text-decoration: none;
+cursor: pointer;
+font-size: 1.2em;
+padding: 18px 10px;
+width: 180px;
+margin: 10px;
+outline: none;
 }
