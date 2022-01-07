@@ -18,8 +18,7 @@ window.onload = function () {
   
     buttonStop.onclick = function() {
         clearInterval(Interval);
-  }
-  
+  } 
 
   buttonReset.onclick = function() {
       clearInterval(Interval);
@@ -27,9 +26,7 @@ window.onload = function () {
       seconds = "00";
     appendTens.innerHTML = tens;
       appendSeconds.innerHTML = seconds;
-  }
-  
-    
+  } 
   
   function startTimer () {
     tens++; 
@@ -56,6 +53,5 @@ window.onload = function () {
     }
   
   }
-    
-  
+     
 }
